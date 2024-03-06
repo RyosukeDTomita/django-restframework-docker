@@ -1,6 +1,6 @@
 # Django REST Framework を試してみる
 
-![un license](https://img.shields.io/github/license/RyosukeDTomita/django-restframework-test)
+![un license](https://img.shields.io/github/license/RyosukeDTomita/django-restframework-docker)
 
 ## INDEX
 
