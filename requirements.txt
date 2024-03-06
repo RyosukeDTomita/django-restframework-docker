@@ -1,0 +1,4 @@
+django==5.0.2
+djangorestframework==3.14.0
+django-filter==23.5
+gunicorn==21.2.0

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  django_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: django-rest-framework:latest
+    container_name: django-rest-framework-container
+    ports:
+      - 80:8000 # localhostport:containerport
+    volumes:
+      - ./:/usr/local/app
+    command: /usr/local/bin/docker-entrypoint.sh
